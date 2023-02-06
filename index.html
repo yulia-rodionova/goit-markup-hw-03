@@ -15,9 +15,9 @@
 		/>
 	</head>
 	<body>
-		<header>
-			<div class="header-container">
-				<nav>
+		<header class="header header-main">
+			<div class="container">
+				<nav class="navigation">
 					<a class="logo link" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
 					<ul class="nav-list list">
 						<li class="nav-item"><a class="link nav-link" href="./index.html">Studio</a></li>
@@ -25,9 +25,10 @@
 						<li class="nav-item"><a class="link nav-link" href="">Contacts</a></li>
 					</ul>
 				</nav>
-				<address>
+				<address class="address">
 					<ul class="address-list list">
-						<li class="address-item"><a class="link address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li
+						<li class="address-item"
+							><a class="link address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li
 						>
 						<li class="address-item"><a class="link address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
 					</ul>
@@ -36,8 +37,10 @@
 		</header>
 		<main>
 			<section class="hero">
-				<h1 class="hero-title">Effective Solutions for Your Business</h1>
-				<button type="button" class="hero-btn">Order Service</button>
+				<div class="container"
+					><h1 class="hero-title">Effective Solutions for Your Business</h1>
+					<button type="button" class="hero-btn">Order Service</button></div
+				>
 			</section>
 
 			<!--Our advantages-->
@@ -98,23 +101,29 @@
 					<ul class="team-list list">
 						<li class="team-item">
 							<img src="./images/mark.jpg" alt="Product Designer Mark Guerrero" width="264" height="260" />
-							<h3 class="team-name list-title">Mark Guerrero</h3>
-							<p class="team-job">Product Designer</p>
+							<div class="team-under-photo"
+								><h3 class="team-name list-title">Mark Guerrero</h3> <p class="team-job">Product Designer</p></div
+							>
 						</li>
 						<li class="team-item">
 							<img src="./images/tom.jpg" alt="Frontend Developer Tom Ford" width="264" height="260" />
-							<h3 class="team-name list-title">Tom Ford</h3>
-							<p class="team-job">Frontend Developer</p>
+							<div class="team-under-photo"
+								><h3 class="team-name list-title">Tom Ford</h3> <p class="team-job">Frontend Developer</p></div
+							>
 						</li>
 						<li class="team-item">
 							<img src="./images/camila.jpg" alt="Camila Garcia from Marketing" width="264" height="260" />
-							<h3 class="team-name list-title">Camila Garcia</h3>
-							<p class="team-job">Marketing</p>
+							<div class="team-under-photo"
+								><h3 class="team-name list-title">Camila Garcia</h3> 
+								<p class="team-job">Marketing</p></div
+							>
 						</li>
 						<li class="team-item">
 							<img src="./images/daniel.jpg" alt="UI Designer Daniel Wilson" width="264" height="260" />
-							<h3 class="team-name list-title">Daniel Wilson</h3>
-							<p class="team-job">UI Designer</p>
+							<div class="team-under-photo"
+								><h3 class="team-name list-title">Daniel Wilson</h3> 
+								<p class="team-job">UI Designer</p></div
+							>
 						</li>
 					</ul>
 				</div>
