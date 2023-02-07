@@ -296,6 +296,8 @@ img {
 }
 
 .footer-logo {
+	margin-right: 0;
+	padding: auto;
 	color: var(--secondary-bg-color);
 }
 
